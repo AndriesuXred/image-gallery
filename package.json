@@ -1,5 +1,11 @@
 {
   "private": true,
+
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -18,4 +24,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC"
+  
 }
